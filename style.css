@@ -156,7 +156,128 @@ body {
     height: 120%;
     text-align: center;
     width: 80%;
+  }
 
+  .head{
+    height: 120px;
+    margin: 0 0 20px 0;
+  }
+
+  #head_basic{
+    background-image: linear-gradient(to bottom right, yellow, red);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  #head_standard{
+    background-image: linear-gradient(to bottom right, lightblue, blue);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  #head_premium{
+    background-image: linear-gradient(to bottom right, lawngreen, lightseagreen);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .naming {
+    margin: 0 0 10px 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  .head_hr {
+    width: 75%;
+    border: 1px solid white;
+  }
+
+  .head_description {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    font-size: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+  }
+
+
+  /*  MAIN  ----------------------*/
+
+  .pricing  {
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 15px 0 10px 0;
+  }
+
+  .large_number {
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+
+  .small_mo {
+    font-size: 1.2rem;
+  }
+
+  .main_hr {
+    width: 25%;
+    border: 1px solid darkgrey;
+  }
+
+  /* DISCRIPTIONS -----------------*/
+
+  .description {
+    width: 96%;
+    text-align: left;
+    font-size: 0.6rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 0 0 0;
+  }
+
+  .basic_disc {
+    list-style: circle;
+  }
+
+  /* BUTTONS --------------------*/
+
+  .buy_button {
+    margin: 50px 0 0 0;
+  }
+
+  #basic_buy_button, #stand_buy_button, #premium_buy_button {
+    width: 40%;
+    height: 32px;
+    border-radius: 10px;
+    margin-left: 30%;
+  }
+
+  #basic_buy_button {
+    background-image: linear-gradient(to bottom right, yellow, red);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+  }
+
+  #stand_buy_button {
+    background-image: linear-gradient(to bottom right, lightblue, blue);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+  }
+
+  #premium_buy_button {
+    background-image: linear-gradient(to bottom right, lawngreen, lightseagreen);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border: none;
   }
 
 }
