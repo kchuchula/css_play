@@ -4,7 +4,7 @@ body {
 
 /* RESPONSIVENESS */
 
-@media (min-width: 347px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
   .container{
     display: flex;
