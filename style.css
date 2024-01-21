@@ -5,8 +5,6 @@ body {
 /* RESPONSIVENESS */
 
 
-
-@media (min-width: 980px) {
   .container{
     display: flex;
     flex-direction: row;
@@ -22,7 +20,7 @@ body {
     border-radius: 20px;
     background-color: white;
   }
-}
+
 
 
 
@@ -147,7 +145,7 @@ body {
     border: none;
   }
 
-  @media (min-width: 480px ) and (max-width: 980px) {
+  @media (max-width: 980px) {
 
     .container{
       flex-direction: column;
@@ -158,6 +156,6 @@ body {
       margin: 50px 0 30px 0;
     }
 
-    
+
 
   }
